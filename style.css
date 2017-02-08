@@ -1,0 +1,12 @@
+body {
+	background-color: #d5c6b0
+}
+h1 {
+	font-family: tahoma, sans-serif;
+	font-weight: lighter;
+}
+div {
+	position: absolute;
+	top: 20px;
+	left: 500px;
+}
