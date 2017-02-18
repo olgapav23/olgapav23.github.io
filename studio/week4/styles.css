@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+}
+#wrapper {
+  font-family: 'Abhaya Libre', serif;
+  width: 300px;
+  line-height 1.2em;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+h1 {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 600px;
+  text-transform: uppercase;
+}
+#image img {
+  width: 40%;
+  margin-left: 50px;
+  position: absolute;
+  top: 80px;
+  padding-right: 50px;
+  padding-top: 25px;
+} 
+#text1 {
+  font-family:'Abhaya Libre', serif;
+  width: 300px;
+  line-height 1.2em;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 90px;
+  left: 600px;
+}
+#text2 {
+   font-family:'Abhaya Libre', serif;
+  width: 300px;
+  line-height 1.2em;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 420px;
+  left: 600px;
+}
+#text3 {
+  font-family: 'Abhaya Libre', serif;
+  width: 300px;
+  line-height 1.2em;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 50px;
+  position: absolute;
+  left: 870px;
+  top: 90px;
+}
+#text4 {
+  font-family: 'Abhaya Libre', serif;
+  width: 300px;
+  line-height 1.2em;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 50px;
+  position: absolute;
+  left: 870px;
+  top: 402px;
+}

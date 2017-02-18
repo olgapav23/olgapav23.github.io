@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #bad1e1;
+	padding-top: 100px;
+}
+
+main {
+	font-size: 0;
+	width: 1200px;
+	background-color: #bad1e1;
+	margin: auto;
+	width: 100%;
+	min-width: 580px;
+}
+nav {
+	position: fixed;
+	top: 10px;
+	left: 20px;
+}
+nav a {
+	background: #83b0ae;
+	color: black;
+	padding: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	margin-bottom: 4px;
+	transition: background-color 1s, padding 1s;
+}
+nav a:hover {
+	background-color: lightblue;
+	padding: 20px;
+}
+nav a:active {
+	border-color: white;
+	color: white;
+}
+h1 {
+	font-family: sans-serif;
+	color: #7f2020;
+	margin-left: 10px;
+}
+div {
+	background-color: #f3dfca;
+}
+/* Columns Declarations */
+.col {
+	background-color: #f3dfca;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 10px 20px 10px;
+	border-top: 1px solid #7f2020;
+	vertical-align: top;
+}
+.col img, .col iframe  {
+	width: 100%;
+	vertical-align: top;
+}
+.col iframe {
+	height: 300px;
+}
+.col-1of6 {
+	width: calc(16.666% - 20px);
+}
+.col-2of6 {
+	width: calc(33.333% - 20px);
+}
+.col-3of6 {
+	width: calc(50% - 20px);
+}
+.col-4of6 {
+	width: calc(66.666% - 20px);
+}
+.col-5of6 {
+	width: calc(83.333% - 20px);
+}
+.col-6of6 {
+	width: calc(100% - 20px);
+}
+.col-nest {
+	font-size: 0;
+	background-color: purple;
+	border: 0;
+}

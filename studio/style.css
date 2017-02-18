@@ -11,7 +11,14 @@ h2 {
 	font-weight: 400;
 	font-size: 18px;
 	color: #605555;
-	padding: 20px 20px 20px 20px;
+	padding: 10px 20px 20px 20px;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #605555;
+	padding: 0;
 }
 div {
 	position: absolute;
@@ -19,6 +26,23 @@ div {
 	left: 300px;
 	right: 200px;
 	color: #605555;
+}
+#nav {
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	color: #cd9fb6;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#horz {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#nav-link {
+	color: #cd9fb6;
 }
 p {
 	font: 15px 'Raleway', sans-serif;
