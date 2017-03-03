@@ -2,33 +2,41 @@ body {
 	font-family: "Cormorant", sans-serif;
 	font-weight: 400;
 	margin-left: 60px;
+	font-size: 17px;
+
 }
 h1 {
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-left: 30px;
 	font-family: "Cormorant", sans-serif;
-	font-size: 50px;
+	font-size: 70px;
 	font-weight: 700;
 	font-style: italic;
+	color: #ae4013;
 }
 h2 {
 	margin: auto;
-	padding-left: 37px;
-	font-family: "Cormorant", sans-serif;
-	font-weight: 700;
-}
-h3 {
-	margin: auto;
-	padding-top: 10px;
-	padding-left: 40px;
+	padding-left: 44px;
 	padding-bottom: 20px;
 	font-family: "Cormorant", sans-serif;
 	font-weight: 700;
+	color: black;
+}
+h5 {
+	margin: auto;
+	padding-top: 10px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+	font-family: "Cormorant", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	font-style: italic;
+	text-align: right;
 }
 #image {
 	float: left;
-	padding: 19px 50px;
+	padding: 22px 50px 32px 40px;
 }
 img {
 	width: 400px;
@@ -38,8 +46,8 @@ img {
 	width: 1100px;
 	font-family: "Cormorant", sans-serif;
 	font-weight: 400;
-	font-style: italic;
 }
 #second {
 	width: 1100px;
+	padding-left: 40px;
 }
