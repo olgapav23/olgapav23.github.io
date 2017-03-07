@@ -137,7 +137,7 @@ footer {
 	width: 600px;
 	position: relative;
 	top: 50px;
-	left: 330px;
+	left: 300px;
 	padding: 20px 20px;
 }
 #ins1 {
@@ -177,7 +177,7 @@ footer {
 #list {
 	margin: auto;
 	position: absolute;
-	top: 200px;
+	top: 150px;
 	left: 600px;
 	font-family: "Avenir", sans-serif;
 	color: #145EA9;
@@ -188,6 +188,7 @@ ul {
 }
 #giflist {
 	padding-top: 50px;
+	padding-left: 20px;
 	width: 80%;
 	height: 100%;
 }
@@ -227,8 +228,8 @@ ul {
 	align-items: center;
 	width: 600px;
 	position: relative;
-	left: 450px;
-	padding: 20px 20px;
+	left: 410px;
+	padding: 20px 10px;
 }
 #temp2 {
 	position: absolute;
@@ -237,5 +238,161 @@ ul {
 }
 #temp3 {
 	position: absolute;
-	left: 500px;
+	left: 440px;
+}
+#a {
+	transition: font-size .5s;
+}
+#a:hover {
+	font-size: 50px;
+}
+#b {
+	transition: font-size .5s;
+}
+#b:hover {
+	font-size: 50px;
+}
+#c {
+	transition: font-size .5s;
+}
+#c:hover {
+	font-size: 50px;
+}
+#d {
+	transition: font-size .5s;
+}
+#d:hover {
+	font-size: 50px;
+}
+#e {
+	transition: font-size .5s;
+}
+#e:hover {
+	font-size: 50px;
+}
+#f {
+	transition: font-size .5s;
+}
+#f:hover {
+	font-size: 50px;
+}
+#g {
+	transition: font-size .5s;
+}
+#g:hover {
+	font-size: 50px;
+}
+#h {
+	transition: font-size .5s;
+}
+#h:hover {
+	font-size: 50px;
+}
+#i {
+	transition: font-size .5s;
+}
+#i:hover {
+	font-size: 50px;
+}
+#j {
+	transition: font-size .5s;
+}
+#j:hover {
+	font-size: 50px;
+}
+#k {
+	transition: font-size .5s;
+}
+#k:hover {
+	font-size: 50px;
+}
+#l {
+	transition: font-size .5s;
+}
+#l:hover {
+	font-size: 50px;
+}
+#m {
+	transition: font-size .5s;
+}
+#m:hover {
+	font-size: 50px;
+}
+#n {
+	transition: font-size .5s;
+}
+#n:hover {
+	font-size: 50px;
+}
+#o {
+	transition: font-size .5s;
+}
+#o:hover {
+	font-size: 50px;
+}
+#p {
+	transition: font-size .5s;
+}
+#p:hover {
+	font-size: 50px;
+}
+#q {
+	transition: font-size .5s;
+}
+#q:hover {
+	font-size: 50px;
+}
+#r {
+	transition: font-size .5s;
+}
+#r:hover {
+	font-size: 50px;
+}
+#s {
+	transition: font-size .5s;
+}
+#s:hover {
+	font-size: 50px;
+}
+#t {
+	transition: font-size .5s;
+}
+#t:hover {
+	font-size: 50px;
+}
+#u {
+	transition: font-size .5s;
+}
+#u:hover {
+	font-size: 50px;
+}
+#v {
+	transition: font-size .5s;
+}
+#v:hover {
+	font-size: 50px;
+}
+#w {
+	transition: font-size .5s;
+}
+#w:hover {
+	font-size: 50px;
+}
+#x {
+	transition: font-size .5s;
+}
+#x:hover {
+	font-size: 50px;
+}
+#y {
+	transition: font-size .5s;
+}
+#y:hover {
+	font-size: 50px;
+}
+#z {
+	transition: font-size .5s;
+}
+#z:hover {
+	font-size: 50px;
 }
