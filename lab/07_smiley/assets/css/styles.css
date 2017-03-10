@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+header {
+	position: fixed;
+	left: 20px;
+	bottom: 10px;
+}
+.label {
+	display: inline-block;
+}
+.label.active {
+	background-color: lightpink;
+}
+.label.inactive {
+	background-color: lime;
+}
+.prompt, .monitor {
+	display: inline-block;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black;
+}
+.prompt {
+	animation-name: pulse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+body {
+	margin: 4px;
+	margin-right: 0;
+}
+.block {
+	display: inline-block;
+	border: .5px solid #148691;
+}
+.yellow {
+	background-color: yellow;
+}
+.black {
+	background-color: black;
+}
+
+/* -- Animation --*/
+
+@keyframes pulse {
+	0% { opacity: 0}
+	50% {opacity: 1}
+	100% {opacity: 0}
+}
+
+/* Phone*/
+@media (max-width: 480px) {
+	.block {
+		width: calc(20% - 4px);
+		padding-top: calc(20% - 4px);
+	}
+	.block:hover {
+		background-color: lightblue;
+	}
+	.label.active {
+		display: none;
+	}
+}
+
+/* Phablet -small desktop*/
+@media (min-width: 481px) and (max-width: 991px) {
+	.block {
+			width: calc(10% - 4px);
+			padding-top: calc(10% - 4px);
+	}
+	.block:hover {
+		background-color: lightpink;
+	}
+	.label.inactive {
+		display: none;
+	}
+	.prompt {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.block {
+		width: calc(5% - 4px);
+		padding-top: calc(5% - 4px);
+	}
+	.block:hover {
+		background-color: red;
+	}
+	.label.active {
+		display: none;
+	}
+}

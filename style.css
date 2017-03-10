@@ -5,11 +5,13 @@ h1 {
 	font-family: 'Raleway', sans-serif;;
 	font-weight: 400;
 	color: #222d4a;
+	padding-left: 20px;
 }
 h2 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	color: #222d4a;
+	padding-left: 30px;
 }
 h3 {
 	font-family: 'Raleway', sans-serif;
@@ -24,8 +26,19 @@ h3 {
 div {
 	position: absolute;
 	top: 20px;
-	left: 350px;
+	left: 420px;
 	color: #778ba5;
+
+}
+#center {
+	width: 420px;
+	height: 110%;
+	margin: auto;
+	background-color: #f6f6f3;
+
+}
+img {
+	width: 100%;
 }
 p {
 	font: 20px 'Raleway', sans-serif;
@@ -33,6 +46,7 @@ p {
 ul {
 	font: 20px 'Raleway', sans-serif;
 	font-weight: 200;
+	padding-left: 60px;
 }
 a {
 	font: 15px 'Raleway', sans-serif;
@@ -42,4 +56,12 @@ a {
 a:hover {
 	color: #8cabec;
 	text-decoration: underline;
+}
+footer {
+	height: 40px;
+	font-family: 'Raleway', sans-serif;;
+	font-weight: 500;
+	color: #222d4a;
+	padding-top: 10px;
+	padding-left: 495px;
 }

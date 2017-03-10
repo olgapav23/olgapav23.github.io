@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.bunny {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+.head {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.circle {
+	border-radius: 50%;
+	width: 10%;
+	height: 100px; 
+	background-color: red;
+	display: inline-block;
+	align-content: center;
+}
+.circle:hover {
+	background-color: blue;
+}
+.black {
+	background-color: black;
+	margin-top: 5px;
+	transition: margin 2s;
+}
+.black:hover {
+	margin-top: 200px;
+}
+ #right {
+ 	margin: 
+ }
