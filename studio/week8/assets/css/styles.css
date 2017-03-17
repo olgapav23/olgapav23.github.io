@@ -1,0 +1,58 @@
+body {
+	background-color: aliceblue;
+}
+.text {
+	padding: 20px 100px;
+	font-family: "avenir", sans-serif;
+	font-size: 20px;
+}
+.colorblock {
+	margin-left: 200px;
+	padding-left: 200px;
+	width: 170px;
+	height: 80px;
+}
+#orange {
+	background-color: #FFA219;
+	opacity: 0.6;
+	position: absolute;
+	left: 90px;
+	top: 420px;
+}
+#green {
+	background-color: #13B245;
+	opacity: 0.6;
+	position: absolute;
+	left: 80px;
+	top: 350px;
+}
+#purple {
+	width: 50px;
+	height: 270px;
+	background-color: #5700B2;
+	position: absolute;
+	opacity: 0.9;
+	left: 320px;
+	top: 300px;
+}
+#greenone {
+	background-color: #13B245;
+	opacity: 0.9;
+	position: absolute;
+	left: 30px;
+	top: 285px;
+}
+#orangeone {
+	background-color: #FFA219;
+	opacity: 0.9;
+	position: absolute;
+	left: 10px;
+	top: 485px;
+}
+#purpleone {
+	background-color: #5700B2;
+	position: absolute;
+	opacity: 0.3;
+	left: 100px;
+	top: 380px;
+}
