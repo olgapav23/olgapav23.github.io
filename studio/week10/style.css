@@ -1,0 +1,69 @@
+#canvas {
+	margin: auto;
+	padding: 100px 40px;
+	width: 350px;
+	height: 520px;
+	background-color: lightblue;
+	opacity: .6;
+}
+.snow {
+	margin: 10px;
+	position: relative;
+	top: 50px;
+	left: 40px;
+	border: 2px solid transparent;
+	width: 120px;
+	height: 30px;
+	background-color: white;
+	display: block;
+}
+.top {
+	width: 50px;
+	margin-left: 40px;
+}
+.left {
+	margin-left: 0px;
+}
+.left:hover {
+	background-color: #003300;
+	margin-top: 20px;
+}
+.right {
+	margin-left: 30px;
+	transition: margin 2s;
+}
+.right:hover {
+	background-color: #003300;
+}
+.bottom {
+	margin-left: 5px;
+	width: 140px;
+	height: 40px;
+}
+.shadow {
+	background-color: grey;
+	opacity: .6;
+	transform: rotate(7deg);
+}
+
+/* Phone*/
+@media (max-width: 480px) {
+	#canvas {
+		width: calc(10% - 2px;)
+		height: calc(10% - 2px);
+	}
+	.snow {
+		display: block;
+	}
+}
+
+/* small desktop*/
+@media (min-width: 992px) {
+	.block {
+		width: calc(5% - 2px);
+		height: calc(5% - 2px);
+	}
+	.snow {
+		display: block;
+	}
+}
