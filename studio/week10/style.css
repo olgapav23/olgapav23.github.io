@@ -14,7 +14,7 @@
 	border: 2px solid transparent;
 	width: 120px;
 	height: 30px;
-	background-color: white;
+	background-color: #9cbdbf;
 	display: block;
 }
 .top {
@@ -41,9 +41,55 @@
 	height: 40px;
 }
 .shadow {
+	position: absolute;
+	top: 570px;
+	left: 420px;
+	width: 120px;
+	height: 100px;
 	background-color: grey;
 	opacity: .6;
-	transform: rotate(7deg);
+	transform: rotate(60deg);
+	transform: skew(-60deg);
+}
+.pile {
+	position: absolute;
+	top: 470px;
+	width: 350px;
+	height: 300px;
+	background-color: #edfeff;
+}
+.l {
+	position: absolute;
+	top: 550px;
+	left: 420px;
+	width: 420px;
+	transform: rotate(-80deg);
+	transform: skew(50deg);
+}
+.r {
+	background-color: #a6b1b2;
+	position: absolute;
+	top: 570px;
+	left: 700px;
+	height: 200px;
+	width: 210px;
+	transform: rotate(50deg);
+	transform: skew(-50deg);
+}
+.background {
+	position: absolute;
+	left: 425px;
+	top: 400px;
+	width: 430px;
+	height: 300px;
+	background-color: #1f3251;
+}
+.light {
+	position: absolute;
+	left: 425px;
+	top: 350px;
+	background-color: #478196;
+	opacity: .5;
 }
 
 /* Phone*/

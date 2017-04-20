@@ -93,4 +93,4 @@ function makeCheckerboard(width, height) {
 		checkerboard = checkerboard + "\n"
 	}
 	console.log(checkerboard);
-}
+};

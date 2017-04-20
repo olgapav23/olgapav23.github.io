@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+}
+#background {
+	padding: 0;
+	margin: 0;
+}
+#mcqueen {
+	width: 100%;
+	height: 100%;
+} 
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+}
+#logo {
+	font-family: "Baskerville", serif;
+	font-size: 50px;
+	position: fixed;
+	top: 30px;
+	left: 1000px;
+	color: white;
+}
+#menu {
+	font-family: "Baskerville", serif;
+	font-size: 20px;
+	position: fixed;
+	top: 30px;
+	left: 50px;
+	color: white;
+}
+#hovermenu {
+	font-family: "Baskerville", serif;
+	font-size: 20px;
+	position: fixed;
+	top: 30px;
+	left: 50px;
+	color: white;
+	display: none;
+	transition: display 1s;
+}
+#hovermenu: hover {
+	margin-top: 20px;
+	display: block;
+}

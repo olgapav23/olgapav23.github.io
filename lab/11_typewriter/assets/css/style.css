@@ -1,0 +1,42 @@
+body {
+	background-color: #051938;
+}
+#sky {
+	width: 1200px;
+	height: 100%;
+}
+.star{
+	position: absolute;
+}
+.sml {
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: white;
+	transition: box-shadow 1s;
+}
+.sml:hover {
+	box-shadow: 0px 0px 6px 6px white;
+}
+.med {
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: goldenrod;
+	opacity: .8;
+	transition: box-shadow 1s;
+}
+.med:hover {
+	box-shadow: 0px 0px 8px 8px goldenrod;
+}
+.lrg {
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background-color: lightblue;
+	opacity: .8;
+	transition: box-shadow 1s;
+}
+.lrg:hover {
+	box-shadow: 0px 0px 12px 12px lightblue;
+}

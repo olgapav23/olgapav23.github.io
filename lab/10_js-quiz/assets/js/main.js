@@ -1,41 +1,40 @@
 
-function checkerboard(width, height) {
-	var checkerboard = "";
+
+function triangle (height) {
+	
+
+
+}
+
+var cbButton = document.getElementById('checkerboard');
+
+cbButton.addEventListener('click', function checkerboard(width, height) {
+		var board = "";
+	
 	for (row = 0; row < height; row++) {
 		if (row % 2) {
 			for (column = 0; column < width; column++) {
 				if ( column % 2 ) {
-					checkerboard = checkerboard + "#"
+					board = board + "#"
 				} else {
-					checkerboard = checkerboard + " "
+					board = board + " "
 				}
 			}
 		}else {
 			for (column = 0; column < width; column++) {
 				if ( column % 2 ) {
-					checkerboard = checkerboard + " "
+					board = board + " "
 				} else {
-					checkerboard = checkerboard + "#"
+					board = board + "#"
 				}
 			}
 		}
-		checkerboard = checkerboard + "\n"
+		board = board + "\n"
 	}
-}
-
-function triangle (height) {
-	var area = "";
-
-
-}
-
-var cbButton = document.getElementById("checkerboard");
-
-cbButton.addEventListener('click', function checkerboard() {
-	console.log(checkerboard);
+	console.log(board);
 });
 
-var trButton =document.getElementById("triangle");
+var trButton =document.getElementById('triangle');
 
 trButton.addEventListener('click', function triangle() {
 	console.log(area);
