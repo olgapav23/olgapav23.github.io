@@ -34,6 +34,10 @@ var letters = {
 
 
 document.addEventListener('keydown', function(event) {
+
+	var text = document.getElementById("text");
+	text.style.display = "none";
+
 	if (event.keyCode >= 65 && event.keyCode <= 73) {
 
 		var div = document.createElement('div');
@@ -65,6 +69,3 @@ document.addEventListener('keydown', function(event) {
 		sky.removeChild(sky.lastChild);
 	}
 });
-
-
-	
