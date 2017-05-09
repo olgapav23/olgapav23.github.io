@@ -94,3 +94,14 @@ img {
 	padding: 4% 25%;
 } 
 
+.post {
+	position: relative;
+	left: 18%;
+	padding: 2% 3%;
+	margin: 10px 10px;
+	box-shadow: 3px 3px 9px #888888;
+	display: block;
+	width: 55%;
+	height: 10%;
+	font-family: 'Gentium Basic', serif;
+}
