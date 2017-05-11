@@ -1,10 +1,16 @@
 body {
 	background-color: white;
 }
+#bckg {
+	width: 200%;
+	height: 300%;
+	position: absolute;
+}
 h1 {
 	position: relative;
 	left: 20%;
 	top: 5%;
+	width: 80%;
 	font-size: 200%;
 	font-family: 'Anaheim', sans-serif;
 }
@@ -46,8 +52,9 @@ a: visited {
 	width: 60%;
 	height: 100%;
 	font-family: 'Gentium Basic', serif;
-	font-size: 14px;
+	font-size: 19px;
 	text-align: justify;
+	background-color: white;
 
 }
 #images{
@@ -66,11 +73,9 @@ a: visited {
 	width: 55%;
 	height: 10%;
 	font-family: 'Gentium Basic', serif;
+	background-color: white;
 }
-.exerpt: hover {
-	width: auto;
-	height: 50%;
-}
+
 h2 {
 	position: inherit;
 	left: 2%;
@@ -93,7 +98,6 @@ img {
 #hidden {
 	padding: 4% 25%;
 } 
-
 .post {
 	position: relative;
 	left: 18%;
@@ -102,6 +106,15 @@ img {
 	box-shadow: 3px 3px 9px #888888;
 	display: block;
 	width: 55%;
-	height: 10%;
+	height: auto;
 	font-family: 'Gentium Basic', serif;
+	background-color: white;
 }
+.crosnav {
+	position: relative;
+	width: auto;
+	color: #8e2618;
+	left: 39%;
+	font-family: 'Anaheim', sans-serif;
+}
+
