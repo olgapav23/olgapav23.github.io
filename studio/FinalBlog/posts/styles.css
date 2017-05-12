@@ -1,11 +1,7 @@
 body {
 	background-color: white;
 }
-#bckg {
-	width: 200%;
-	height: 300%;
-	position: absolute;
-}
+
 h1 {
 	position: relative;
 	left: 20%;
@@ -35,10 +31,11 @@ h4 {
 }
 h3 {
 	position: relative;
-	left: 1%;
+	left: 18%;
 	top: 5%;
 	font-family: 'Gentium Basic', serif;
 	font-size: 20px;
+	padding: 2%;
 }
 #nav {
 	position: fixed;
