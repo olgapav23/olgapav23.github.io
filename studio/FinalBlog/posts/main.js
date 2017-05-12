@@ -16,4 +16,3 @@ setTimeout(function hideLinks() {
 	link.style.display = "none";
 }, 5000);
 
-

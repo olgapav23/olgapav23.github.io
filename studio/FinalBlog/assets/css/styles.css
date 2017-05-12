@@ -1,6 +1,8 @@
-
 body {
 	background-color: white;
+	background-image: url(big.jpg);
+	background-size: 50% 50%;
+	background-repeat: repeat;
 }
 #bckg {
 	width: 200%;
@@ -9,14 +11,33 @@ body {
 }
 h1 {
 	position: relative;
-	left: 20%;
+	left: 2%;
 	top: 5%;
-	width: 80%;
-	font-size: 200%;
+	width: 100%;
+	font-size: 180%;
 	font-family: 'Anaheim', sans-serif;
+	padding: 1%;
+	padding-top: 15px;
+}
+#topping {
+	position: relative;
+	left: 17%;
+	width: 65%;
+	height: auto;
+	margin-bottom: 2%;
+	background-color: white;
+	box-shadow: 3px 3px 9px #888888;
+}
+h4 {
+	position: relative;
+	left: 60%;
+	padding-bottom: 2%;
+	font-family: 'Anaheim', sans-serif;
+	font-size: 130%;
+	width: 40%;
 }
 h3 {
-	position: absolute;
+	position: relative;
 	left: 1%;
 	top: 5%;
 	font-family: 'Gentium Basic', serif;
@@ -49,13 +70,14 @@ a: visited {
 }
 #about {
 	position: relative;
-	left: 20%;
+	left: 17.5%;
 	width: 60%;
 	height: 100%;
 	font-family: 'Gentium Basic', serif;
 	font-size: 19px;
 	text-align: justify;
 	background-color: white;
+	padding: 1% 2%;
 
 }
 #images{
@@ -87,16 +109,11 @@ h2 {
 	font-size: 110%;
 
 }
-img {
-	height: 100vh;
-	width: 100vw;
-	position: absolute;
-	display: inline-block;
-}
 #horz {
 	background-color: #8c8c8c;
 	text-align: right;
 	padding: 0 5%;
+	box-shadow: 3px 3px 9px #000000;
 }
 #hidden {
 	padding: 4% 25%;
@@ -119,4 +136,24 @@ img {
 	color: #8e2618;
 	left: 39%;
 	font-family: 'Anaheim', sans-serif;
+}
+#sidebar {
+	position: fixed;
+	top: 20%;
+	left: 4%;
+	width: 15%;
+	height: auto;
+}
+#postimg {
+	position: relative;
+	top: 7%;
+	width: 15vw;
+	height: auto;
+}
+.description {
+	background-color: #8e2618;
+	width: 15vw;
+	height: auto;
+	font-family: 'Gentium Basic', serif;
+	color: white;
 }
